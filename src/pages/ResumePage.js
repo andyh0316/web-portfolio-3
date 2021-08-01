@@ -1,4 +1,4 @@
-import "./Resume.scss";
+import "./ResumePage.scss";
 import React from "react";
 import { Component } from "react";
 
@@ -10,10 +10,10 @@ import { faBriefcase as experienceIcon } from "@fortawesome/free-solid-svg-icons
 import { faBuilding as educationIcon } from "@fortawesome/free-solid-svg-icons";
 import { faGrimace as personalIcon } from "@fortawesome/free-solid-svg-icons";
 
-export default class Resume extends Component {
+export default class ResumePage extends Component {
   render() {
     return (
-      <div id="resume-container">
+      <div id="resume-page">
         <div id="header">
           <div className="left-block">
             <div id="name">Andy Hong</div>

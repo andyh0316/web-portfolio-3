@@ -1,13 +1,7 @@
 // @import "../MaterialIcons/material-icons.scss";
 @import "material-icons.scss";
 
-body {
-    background-color: black;
-    padding: 0px;
-    margin: 0px;
-}
-
-#resume-container {
+#resume-page {
     display: flex;
     flex-direction: column;
     position: relative;
