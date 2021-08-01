@@ -11,7 +11,7 @@ docker run -d -p 3000:3000 --name web-portfolio-3-app web-portfolio-3-image
 docker stop web-portfolio-3-app
 
 ### remove container
-docker rm web-portfolio-3-app
+docker rm web-portfolio-3-app -f
 
 ### go into bash terminal of the container (then do ls to look at files)
 docker exec -it web-portfolio-3-app bash
