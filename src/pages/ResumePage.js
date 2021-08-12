@@ -67,19 +67,19 @@ export default class ResumePage extends Component {
               </div>
               <div className="skill-row">
                 <div className="skill-title">ReactJS (Frontend)</div>
-                <SkillRating percentage={90}></SkillRating>
+                <SkillRating percentage={80}></SkillRating>
               </div>
               <div className="skill-row">
                 <div className="skill-title">C# + .NET (Backend)</div>
                 <SkillRating percentage={100}></SkillRating>
               </div>
-              <div className="skill-row">
+              <div className="skill-row"> 
                 <div className="skill-title">Microsoft SQL Server (Database)</div>
-                <SkillRating percentage={75}></SkillRating>
+                <SkillRating percentage={80}></SkillRating>
               </div>
               <div className="skill-row">
                 <div className="skill-title">AWS, Azure (Server)</div>
-                <SkillRating percentage={75}></SkillRating>
+                <SkillRating percentage={50}></SkillRating>
               </div>
             </div>
           </div>
@@ -93,23 +93,23 @@ export default class ResumePage extends Component {
               <div className="section-row">
                 <div className="section-row-header">
                   <div className="section-row-title">Cobro Consulting: Lead Developer</div>
-                  <div className="section-row-subtitle">2015 - 2021</div>
+                  <div className="section-row-subtitle">2015 - Present</div>
                 </div>
                 <div className="section-row-content">
-                  Started as a solo developer, I built the company's core system from scratch, which launched after 9 months and currently generates millions in yearly revenue. The system
-                  is a student management system used by more than 100 school districts to manage a total of 600,000 students and 30,000,000 services. My roles in the company includes architecture,
-                  UI/UX design, UI implentation, frontend implementation, backend implementation, server, multi-tenant SQL administration, and later grew to a team of multiple developers who I lead
-                  to continue to improve the application.
+                  Started as a solo developer, I rebuilt the company's student management system from scratch, which launched after 9 months. My responsibilies in the company includes architecture,
+                  UI/UX design, frontend implementation, backend implementation, server, multi-tenant SQL administration. After accumulating more clients, we grew to a team of multiple developers who I lead
+                  to continue to improve the application. The tech stack I chose to build the main application is AngularJS and C# .NET, and ReactJS and .NET Core for smaller projects later in the years.
                 </div>
               </div>
 
               <div className="section-row">
                 <div className="section-row-header">
-                  <div className="section-row-title">GTV: Senior Software Developer</div>
-                  <div className="section-row-subtitle">2018 - 2020</div>
+                  <div className="section-row-title">Freelancing Developer</div>
+                  <div className="section-row-subtitle">2019 - 2021</div>
                 </div>
                 <div className="section-row-content">
-                  Joined in a large team and focused on developing frontend of two social media sites: gettr.com and gtv.org, using reactJS and responsive design concepts.
+                  <div>- Joined GTV as a contractor focused on developing frontend of social media site gettr.com, using reactJS and responsive design concepts. </div>
+                  <div>- Joined NewPieTechnology as a contractor and lead an ecommerce project with 3 developers for 6 months, using ReactJS and .NET CORE.</div>
                 </div>
               </div>
 
@@ -119,19 +119,21 @@ export default class ResumePage extends Component {
                   <div className="section-row-subtitle">2014 - 2015</div>
                 </div>
                 <div className="section-row-content">
-                  Helped develop an enterprise-scale plastic surgeon EHR software system capable of managing an entire facility's process. My role
-                  as the only full stack developer in the team includes designing/developing frontend and developing backend.
+                  Joined a start up company and helped develop an enterprise-scale plastic surgeon EHR software system capable of managing an entire facility's process. My role
+                  as the only full stack developer in the team includes designing/developing frontend and developing backend, using AngularJS and .NET. The company was then quickly
+                  acquired after only one year.
                 </div>
               </div>
 
               <div className="section-row">
                 <div className="section-row-header">
-                  <div className="section-row-title">Humana: Junior Software Engineer</div>
-                  <div className="section-row-subtitle">2013 - 2014</div>
+                  <div className="section-row-title">Humana: Junior Backend Engineer</div>
+                  <div className="section-row-subtitle">2012 - 2014</div>
                 </div>
                 <div className="section-row-content">
-                  Helped developed a grand scale health-care management system for the government. Mainly responsible for backend development and some frontend development. Later mentored an entry
-                  level developer for 3 months.
+                  After graduating from college, I was offered with a position as at Humana: nLiven where I helped to develop a grand scale health-care management system for the government. I was assigned to a team of 10 of developers, QA, scrum master and product manager
+                  in an Agile environment. After training with my mentor for one month, I quickly started to develop features in C# .NET backend and was appalled at how much more fun and accomplished to program in real life work experience than it was in college.
+                  I proactively started seeking some frontend tasks and grew quickly within the company to be more full stack. In 2014, the CTO of nLiven resigned to start his own company SupraMed, in which he asked me to join him in his adventure.
                 </div>
               </div>
             </div>
