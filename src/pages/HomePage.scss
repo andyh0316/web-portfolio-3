@@ -21,7 +21,7 @@
     z-index: 1;
 
     .buttons-container {
-      margin-left: 10px;
+      margin-left: 20px;
       //padding-top: 1%;
       vertical-align: middle;
 
@@ -31,7 +31,7 @@
         background-color: #bbb;
         border-radius: 50%;
         display: inline-block;
-        margin-right: 2px;
+        margin-right: 4px;
 
         &.red {
           background-color: red;
@@ -190,8 +190,8 @@
         }
 
         .code-comment {
-            color: #00b64c;
-            opacity: 0.7;
+            color: #009b40;
+            opacity: 0.65;
         }
 
         .link-string {
