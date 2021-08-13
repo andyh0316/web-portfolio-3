@@ -58,7 +58,7 @@ export class HomePage extends Component {
 
         <div className="personal-info-container">
           <div className="code-line">
-            <span className="code-comment"> /* Please view on computer or IPad */</span>
+            <span className="code-comment">// Please view on computer or IPad</span>
           </div>
           <div className="code-line">
             <span className="code-object-type">SuperDev </span>
