@@ -2,7 +2,7 @@ import "./ResumePage.scss";
 import React from "react";
 import { Component } from "react";
 
-import SkillRating from "components/SkillRating";
+import ResumeSkillRating from "components/ResumeSkillRating";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBullseye as objectiveIcon } from "@fortawesome/free-solid-svg-icons";
 import { faAlignJustify as skillIcon } from "@fortawesome/free-solid-svg-icons";
@@ -51,35 +51,35 @@ export default class ResumePage extends Component {
             <div className="section-content">
               <div className="skill-row">
                 <div className="skill-title">Software Architecture</div>
-                <SkillRating percentage={75}></SkillRating>
+                <ResumeSkillRating percentage={75}></ResumeSkillRating>
               </div>
               <div className="skill-row">
                 <div className="skill-title">UI/UX Design</div>
-                <SkillRating percentage={50}></SkillRating>
+                <ResumeSkillRating percentage={50}></ResumeSkillRating>
               </div>
               <div className="skill-row">
                 <div className="skill-title">HTML, SCSS/SASS</div>
-                <SkillRating percentage={100}></SkillRating>
+                <ResumeSkillRating percentage={100}></ResumeSkillRating>
               </div>
               <div className="skill-row">
                 <div className="skill-title">AngularJS (Frontend)</div>
-                <SkillRating percentage={100}></SkillRating>
+                <ResumeSkillRating percentage={100}></ResumeSkillRating>
               </div>
               <div className="skill-row">
                 <div className="skill-title">ReactJS (Frontend)</div>
-                <SkillRating percentage={80}></SkillRating>
+                <ResumeSkillRating percentage={80}></ResumeSkillRating>
               </div>
               <div className="skill-row">
                 <div className="skill-title">C# + .NET (Backend)</div>
-                <SkillRating percentage={100}></SkillRating>
+                <ResumeSkillRating percentage={100}></ResumeSkillRating>
               </div>
               <div className="skill-row"> 
                 <div className="skill-title">Microsoft SQL Server (Database)</div>
-                <SkillRating percentage={80}></SkillRating>
+                <ResumeSkillRating percentage={80}></ResumeSkillRating>
               </div>
               <div className="skill-row">
                 <div className="skill-title">AWS, Azure (Server)</div>
-                <SkillRating percentage={50}></SkillRating>
+                <ResumeSkillRating percentage={50}></ResumeSkillRating>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@ export default class ResumePage extends Component {
                 </div>
                 <div className="section-row-content">
                   <div>- Joined GTV as a contractor focused on developing frontend of social media site gettr.com, using reactJS and responsive design concepts. </div>
-                  <div>- Joined NewPieTechnology as a contractor and lead an ecommerce project with 3 developers for 6 months, using ReactJS and .NET CORE.</div>
+                  <div>- Joined NewPieTechnology as a contractor and lead an 6 months ecommerce project with 3 developers, using ReactJS and .NET CORE.</div>
                 </div>
               </div>
 
