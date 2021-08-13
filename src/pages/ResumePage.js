@@ -24,6 +24,10 @@ export default class ResumePage extends Component {
               <span>Email: </span>
               <span>Andyhong0316@yahoo.com</span>
             </div>
+            <div>
+              <span>Portfolio: </span>
+              <a href="http://haitianhong.com">HaitianHong.com</a>
+            </div>
           </div>
         </div>
 

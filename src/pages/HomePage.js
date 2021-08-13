@@ -58,6 +58,9 @@ export class HomePage extends Component {
 
         <div className="personal-info-container">
           <div className="code-line">
+            <span className="code-comment"> // Please view on computer or IPad</span>
+          </div>
+          <div className="code-line">
             <span className="code-object-type">SuperDev </span>
             <span className="code-object">dev </span>
             <span className="code-normal">= </span>
@@ -85,8 +88,19 @@ export class HomePage extends Component {
           <div className="code-line indent">
             <span className="code-normal">Objective = </span>
             <span className="code-string">
-              "I can build a web system completely from ground up, covering all aspects needed for a complete product: all the way from UI/UX development design,
-              architectural design, front-end development, back-end development, SQL, to server deployment."
+              "I can build a web system completely from ground up, covering all aspects needed for a complete product: all the way from UI/UX development design, architectural design, front-end
+              development, back-end development, SQL, to server deployment."
+            </span>
+          </div>
+          <div className="code-line indent">
+            <span className="code-normal">Resume = </span>
+            <span className="code-key-word">new </span>
+            <span className="code-object-type">
+              Resume(
+              <a href="/AndyHongResume.pdf" target="_blank">
+                Click Me to View
+              </a>
+              )
             </span>
           </div>
           <div className="code-line">
@@ -130,16 +144,77 @@ export class HomePage extends Component {
 
   getProjectComp() {
     return (
-      <div id="projects" className="screen-panel">
-        Projects: Work in progress
+      <div id="project" className="screen-panel">
+        <div className="wrapper">
+          <div className="project-title">Work Project</div>
+
+          <div className="project-description">
+            Here I will show the student management system I built for my current company. Most of what's shown was built in the first year, then the application kept on evolving to meet new tenant's
+            need. The application is a multi-tenant system with up to hundred of users per tenant. Here I will demostrate using the "Demo" tenant.
+          </div>
+
+          <div className="project-block">
+            <div className="title">Student List</div>
+            <img src="/images/project/student-list.png"></img>
+            <div className="description">
+              The Student List page contains comprehensive operations: you can search, advanced filter, multi-sort, select multiple rows for batch actions, create and edit. One thing that is more user
+              friendly here than typical list tables is that you can scroll down the table body (student rows) while the table header and everything else remain in place, and also as you scroll down
+              it will load new entries automatically. I take time to think about subtle things like this all over the application to improve user experience.
+            </div>
+          </div>
+
+          <div className="project-block">
+            <div className="title">Texting</div>
+            <img src="/images/project/texting.png"></img>
+            <div className="description">
+              Texting feature allows you to send the same text messages to thousands of students all at once (from the batch action from Student List page). You can also receive live messages coming
+              in just like how phone works. Texting is one of the more challenging feature I've had to make because it requires many infrastructures and tools. I needed to learn websocket SignalR,
+              Twilio, Async Task runner, Windows Task Scheduler, Sticky Session and Redis backpane (for connecting multiple servers on load balancer) to make this feature complete.
+            </div>
+          </div>
+
+          <div className="project-block">
+            <div className="title">NET Management</div>
+            <img src="/images/project/data-center.png"></img>
+            <div className="description">
+              NET Management is actually a separate application although it looks similar, used by internal staff at the company only (ignore the non-sensical menu icons). The main purpose of this
+              application is to manage all tenants such as what features they can use. In this screenshot is one of the many features called Data Center, where the staff can manage files uploaded by
+              each tenant's users and process their requests.
+            </div>
+          </div>
+
+          <div className="project-block">
+            <div className="title">Import</div>
+            <img src="/images/project/import.png"></img>
+            <div className="description">
+              Import is a feature that has more than meets the eye. It allows tenant users to import data to any table from excel file by providing comprehensive steps. First you can upload an excel
+              file, then you can map the header fields, then map the body fields if needed, and finally it will fully validate if there are any data inaccuracy before it lets you import.
+            </div>
+          </div>
+
+          <div className="project-block">
+            <div className="title">Report</div>
+            <img src="/images/project/reports.png"></img>
+            <div className="description">Nothing interesting here, just that there were alot of boring reports and different ways to filter.</div>
+          </div>
+
+          <div className="project-title">Summary</div>
+
+          <div className="project-description">
+            The company gave me a wild experience as the boss trusts me to make all decisions regarding the application. Starting from picking the tech stack, designing UI/UX, developing to
+            deployment. It exposed me to every aspect needed to build a complete application and gave me more drive to proactively make the application better.
+          </div>
+        </div>
       </div>
     );
   }
 
   getSkillComp() {
-    return <div id="skills" className="screen-panel">
-      Haha
-    </div>;
+    return (
+      <div id="skills" className="screen-panel">
+        Haha
+      </div>
+    );
   }
 
   render() {
