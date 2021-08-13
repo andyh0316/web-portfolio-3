@@ -16,7 +16,7 @@ export default class ResumePage extends Component {
       <div id="resume-page">
         <div id="header">
           <div className="left-block">
-            <div id="name">Andy Hong</div>
+            <div id="name">Haitian (Andy) Hong</div>
             <div id="position">Full Stack Software Engineer</div>
           </div>
           <div className="right-block">
