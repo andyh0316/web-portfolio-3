@@ -97,7 +97,7 @@ export class HomePage extends Component {
             <span className="code-key-word">new </span>
             <span className="code-object-type">
               Resume(
-              <a href="/AndyHongResume.pdf" target="_blank">
+              <a href="/HaitianAndyHongResume.pdf" target="_blank">
                 Click Me to View
               </a>
               )
