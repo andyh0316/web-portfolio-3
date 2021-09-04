@@ -96,7 +96,7 @@ export default class ResumePage extends Component {
             <div className="section-content">
               <div className="section-row">
                 <div className="section-row-header">
-                  <div className="section-row-title">Cobro Consulting: Lead Developer</div>
+                  <div className="section-row-title">Cobro Consulting: Senior Full Stack Developer/Software Architect</div>
                   <div className="section-row-subtitle">2015 - Present</div>
                 </div>
                 <div className="section-row-content">
